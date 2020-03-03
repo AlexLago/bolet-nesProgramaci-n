@@ -8,4 +8,9 @@ public class Coche extends Vehículo{
 		setVelocidadMaxima(velocidadMaxima);
 		this.numeroPlazas = numeroPlazas;
 	}//Coche
+	
+	public void mostrarDatos() {
+		System.out.printf("Numero de Plaza: %d\n", numeroPlazas);
+	}//mostrarDatos
 }//class
+

@@ -30,7 +30,7 @@ public class Vehículo {
 	}//setVelocidadMaxima
 	
 	public void mostrarDatos() {
-		System.out.printf("Matricula: %d\nTipo: %d\nVelocidad Máxima: %d\nConductor: %d\n", matricula,tipo,velocidadMaxima,conductor);
+		System.out.printf("Matricula: %d\nTipo: %d\nVelocidad Máxima: %d\n", matricula,tipo,velocidadMaxima,conductor);
 	}
 	
 }//vehículo

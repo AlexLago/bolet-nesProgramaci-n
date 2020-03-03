@@ -9,4 +9,8 @@ public class Camión extends Vehículo {
 		setVelocidadMaxima(velocidadMaxima);
 		this.remolque = remolque;
 	}//Camión
+	
+	public void mostrarDatos() {
+		System.out.printf("Altura: %d\nRemolque: %d\n", altura,remolque);
+	}
 }//class
