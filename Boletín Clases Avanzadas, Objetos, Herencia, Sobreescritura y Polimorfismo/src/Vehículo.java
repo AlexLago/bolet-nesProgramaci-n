@@ -21,6 +21,14 @@ public class Vehículo {
 		this.tipo = tipo;
 	}//setTipo
 	
+	public Conductor getConductor() {
+		return conductor;
+	}//getConductor
+	
+	public void setConductor(Conductor conductor) {
+		this.conductor=conductor;
+	}//setConductor
+	
 	public int getVelocidadMaxima() {
 		return velocidadMaxima;
 	}//getVelocidadMaxima
@@ -30,7 +38,7 @@ public class Vehículo {
 	}//setVelocidadMaxima
 	
 	public void mostrarDatos() {
-		System.out.printf("Matricula: %d\nTipo: %d\nVelocidad Máxima: %d\n", matricula,tipo,velocidadMaxima,conductor);
-	}
+		System.out.printf("Matricula: %d\nTipo: %d\nVelocidad Máxima: %d\nConductor:%s\n", matricula,tipo,velocidadMaxima,conductor);
+	}//mostrarDatos
 	
 }//vehículo

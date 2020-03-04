@@ -9,7 +9,9 @@ public class Coche extends Vehículo{
 		this.numeroPlazas = numeroPlazas;
 	}//Coche
 	
+	
 	public void mostrarDatos() {
+		super.mostrarDatos();
 		System.out.printf("Numero de Plaza: %d\n", numeroPlazas);
 	}//mostrarDatos
 }//class

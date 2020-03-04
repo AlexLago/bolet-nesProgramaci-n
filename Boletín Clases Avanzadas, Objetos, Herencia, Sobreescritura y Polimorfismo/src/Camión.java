@@ -10,7 +10,16 @@ public class Camión extends Vehículo {
 		this.remolque = remolque;
 	}//Camión
 	
+	public Remolque getRemolque() {
+		return remolque;
+	}//getRemolque
+	
+	public void setRemolque(Remolque remolque) {
+		this.remolque = remolque;
+	}//setRemolque
+	
 	public void mostrarDatos() {
-		System.out.printf("Altura: %d\nRemolque: %d\n", altura,remolque);
-	}
+		super.mostrarDatos();
+		System.out.printf("Altura: %d\nRemolque: %s\n", altura,remolque);
+	}//mostrarDatos
 }//class
