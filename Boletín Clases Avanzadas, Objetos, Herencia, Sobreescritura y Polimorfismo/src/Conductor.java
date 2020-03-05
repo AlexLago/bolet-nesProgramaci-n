@@ -10,7 +10,7 @@ public class Conductor {
 	
 	@Override
 	public String toString() {
-		String mensaje="DNI: "+dni+"\nNombre: "+nombre;
+		String mensaje="\n*DNI: "+dni+"\n*Nombre: "+nombre;
 		return mensaje;
 	}//toString
 }//class

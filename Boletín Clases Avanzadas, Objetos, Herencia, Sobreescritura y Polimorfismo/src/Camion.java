@@ -1,9 +1,9 @@
 
-public class Camión extends Vehículo {
+public class Camion extends Vehiculo {
 	private int altura;
 	private Remolque remolque;
 	
-	public Camión(String matricula,String tipo,int velocidadMaxima,Remolque remolque) {
+	public Camion(String matricula,String tipo,int velocidadMaxima,Remolque remolque) {
 		setMatricula(matricula);
 		setTipo(tipo);
 		setVelocidadMaxima(velocidadMaxima);

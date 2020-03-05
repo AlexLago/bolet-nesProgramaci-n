@@ -1,5 +1,5 @@
 
-public class Coche extends Vehículo{
+public class Coche extends Vehiculo{
 	private int numeroPlazas;
 	
 	public Coche(String matricula,String tipo,int velocidadMaxima,int numeroPlazas) {
@@ -12,7 +12,7 @@ public class Coche extends Vehículo{
 	
 	public void mostrarDatos() {
 		super.mostrarDatos();
-		System.out.printf("Numero de Plaza: %d\n", numeroPlazas);
+		System.out.printf("Numero de Plaza: %s\n", numeroPlazas);
 	}//mostrarDatos
 }//class
 

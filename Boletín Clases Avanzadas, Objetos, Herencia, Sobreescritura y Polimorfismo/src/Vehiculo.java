@@ -1,5 +1,5 @@
 
-public class Vehículo {
+public class Vehiculo {
 	private String matricula;
 	private String tipo;
 	private int velocidadMaxima;

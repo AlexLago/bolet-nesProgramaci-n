@@ -7,5 +7,5 @@ public class Remolque {
 	public String toString() {
 		String mensaje="\n*Matricula: "+matricula+"\n*Longitud: "+longitud;
 		return mensaje;
-	}
+	}//toString
 }//class
