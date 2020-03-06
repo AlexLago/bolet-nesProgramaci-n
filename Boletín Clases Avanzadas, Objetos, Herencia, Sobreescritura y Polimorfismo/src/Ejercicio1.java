@@ -28,7 +28,6 @@ public class Ejercicio1 {
 	
 	void impresionPoliformismo(Vehiculo vehi) {
 		vehi.mostrarDatos();
-
 	}//impresionPoliformismo
 	
 	
@@ -38,10 +37,6 @@ public class Ejercicio1 {
 			Camion vehCamio=(Camion)vehi;
 			System.out.println(vehCamio.getRemolque());
 		}//if
-		
-		
 	}//impresionPoliformismo
-	
-	//if(vehiculo instanceof camion){}//if
 	
 }//class
