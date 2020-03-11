@@ -9,17 +9,19 @@ public class Ejercicio1 {
 		//coche.mostrarDatos();
 		Conductor cond= new Conductor("123456y","alex");
 		coche.setConductor(cond);
-		Camion camion = new Camion(null, null, 0, null);
+		//Camion camion = new Camion(null, null, 0, null);
+		Camion camion = new Camion("c432as","toyota",123,11);
+		camion.mostrarDatos();
 		//camion.setConductor(cond);
 		//camion.mostrarDatos();
 		Remolque remolq = new Remolque();
 		remolq.matricula="555-asd";
 		remolq.longitud= 2;
-		camion.setRemolque(remolq);
+		//camion.setRemolque(remolq);
 		//camion.mostrarDatos();
 		Ejercicio1 ej= new Ejercicio1();
 		
-		ej.impresionPoliformismo(camion);
+		//ej.impresionPoliformismo(camion);
 		
 		ej.impresionPoliformismo(coche);
 		

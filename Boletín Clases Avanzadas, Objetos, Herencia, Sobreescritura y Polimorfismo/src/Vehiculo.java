@@ -41,4 +41,13 @@ public class Vehiculo {
 		System.out.printf("Matricula: %d\nTipo: %d\nVelocidad Máxima: %d\nConductor:%s\n", matricula,tipo,velocidadMaxima,conductor);
 	}//mostrarDatos
 	
+	public Vehiculo(String matricula,String tipo,int velocidadMaxima) {
+		this.matricula = matricula;
+		this.tipo = tipo;
+		this.velocidadMaxima = velocidadMaxima;
+	}//Vehiculo
+	
+	public Vehiculo() {
+	}//Vehiculo
+	
 }//vehículo
